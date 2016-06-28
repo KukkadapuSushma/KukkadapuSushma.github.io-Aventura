@@ -1,0 +1,225 @@
+<html lang="en">
+
+    <head>
+
+		<meta charset="UTF-8" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+        <title>AVENTURAA</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <meta name="description" content="Animated Swatch Book with CSS3 and jQuery" />
+
+        <meta name="keywords" content="swatch book, css3, jquery, animated, rotation, transition, folding fan" />
+
+        <meta name="author" content="Codrops" />
+
+        <!link rel="shortcut icon" href="../favicon.ico"> 
+
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript" src="js/modernizr.js"></script> 
+
+		<!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+
+    </head>
+	<link href = "designHome.css" type= "text/css" rel = "stylesheet"/>
+    <body>
+
+        <div class="container">
+
+		
+
+			<!-- Codrops top bar -->
+
+  </div><!--/ Codrops top bar -->
+
+			
+
+			<header>
+
+			
+
+				<h1><b><span>AVENTURAA</span></b></h1> 
+
+				
+
+                                 <marquee behavior="scroll" direction="left"><h3><b><font color = "white"/>Signup to register for Adventure camps! </b></h3></marquee>
+
+                                  
+					
+				
+
+				
+
+				<div class="support-note"><!-- let's check browser support with modernizr -->
+
+					<!--span class="no-cssanimations">CSS animations are not supported in your browser</span-->
+
+					<span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+
+					<!--span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span-->
+
+					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+
+					<span class="note-ie">Sorry, only modern browsers.</span>
+
+				</div>
+
+				
+
+			</header>
+
+			
+
+			<section class="main">
+
+			
+
+				<div id="sb-container" class="sb-container">
+
+				
+
+					<div>
+					<a href = "skydiving.html" target = "new"><h4><span><b>Sky Diving</b></span></h4></a>
+
+					</div>
+
+					<div>
+
+				         <a href = "trekking.html" target = "new"><h4><span><b>Trekking</b></span></h4></a>
+  
+					</div>	
+
+					<div>
+
+					 <a href = "boating.html" target = "new"><h4><span><b>Boating</b></span></h4></a>
+
+					</div>	
+
+					<div>
+
+					
+					  <a href = "surfing.html" target = "new"><h4><span><b>Surfing</b></span></h4></a>
+
+					</div>	
+
+					<div>
+
+						 <a href = "biking.html" target = "new"><h4><span><b>Biking</b></span></h4></a>
+				
+
+					</div>	
+
+					<div>
+
+					 <a href = "paragliding.html" target = "new"><h4><span><b>ParaGliding</b></span></h4></a>
+
+					</div>	
+
+					<div>
+
+																		
+					<a href = "seadiving.html" target = "new"><h4><span><b>Sea Diving</b></span></h4></a>
+
+					</div>	
+
+					<div>
+
+													
+						 <a href = "hunting.html" target = "new"><h4><span><b>Hunting</b></span></h4></a>
+
+					</div>	
+
+					<div>
+
+										
+						 <a href = "cycling.html" target = "new"><h4><span><b>Cycling</b></span></h4></a>
+
+					</div>	
+
+					<div>
+                    			<a href = "login.html" target = "new"><h4><span><b>LogIn</b></span></h4></a>
+													
+						 
+
+					</div>
+
+					<div>
+
+															
+						 <a href = "register.html" target = "new"><h4><span><b>SignUp</b></span></h4></a>
+
+					</div>
+
+					<div>
+
+						<h4><span>Adventures</span></h4>
+
+						<span class="sb-toggle"><font color = "#FFFFFF">Click to open/close</font></span>
+
+						<!h5><!span><!/span><!/h5>											
+
+					</div>
+
+					
+
+					
+
+				</div><!-- sb-container -->
+
+				
+
+			</section>
+
+			
+
+        </div>
+	
+		
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+		<script type="text/javascript" src="js/swatchbook.js"></script>
+
+		<script type="text/javascript">
+
+			$(function() {
+
+			
+
+				$( '#sb-container' ).swatchbook( {
+
+					// number of degrees that is between each item
+
+					angleInc : -10,
+
+					// amount in degrees for the opened item's next sibling
+
+					proximity : -45,
+
+					neighbor : -4,
+
+					// index of the element that when clicked, triggers the open/close function
+
+					// by default there is no such element
+
+					closeIdx : 11
+
+				} );
+
+			
+
+			});
+
+		</script>
+
+    </body>
+
+</html>

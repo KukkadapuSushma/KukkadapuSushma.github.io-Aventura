@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=default-width, initial-scale=1">
+  <link rel = "stylesheet" href="login.css"/>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+ <title>Sign Up</title>
+</head>
+<body>
+<div class="container">
+<div class = "row">
+<div class="col-sm-6 col-md-4 col-md-offset-4">
+
+<br></br>
+<a href="index.html"  class="btn btn-info" class="pull-right" role="button"><font color = "blue">HOME</font></a>
+<br></br>
+   <h2><font color = " #C0C0C0"><b><em>Sign up</em></b></font></h2>
+               
+    <br/>
+   <FORM method = "post" action = "signup">    
+      
+       <div class="form-group">
+      <label for="nm"><font color = "#FFFFFF ">User Name:</font></label>
+      <input type="text" class="form-control" name="user" placeholder="Enter user name">
+    </div>     
+    <div class="form-group">
+      <label for="pwd"><font color = "#FFFFFF ">Password:</font></label>
+      <input type="password" class="form-control" name="password" placeholder="Enter password">
+    </div>
+      <div class="form-group">
+      <label for="email"><font color = "#FFFFFF ">Email:</font></label>
+      <input type="email" class="form-control" name="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="phone"><font color = "#FFFFFF ">Phone:<font></label>
+      <input type="text" class="form-control" name="phone" pattern = "^\d{10}$" required placeholder="Enter phone number">
+    </div>
+          
+          
+              <input type="submit" class="btn btn-success" value="SignUP">
+       
+           
+      </FORM>        
+                        
+
+ </body>
+
+</html>
